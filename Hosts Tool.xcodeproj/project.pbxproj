@@ -14,6 +14,7 @@
 		956D3C8D2AAB8556008B8FF8 /* Hosts_ToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D3C8C2AAB8556008B8FF8 /* Hosts_ToolTests.swift */; };
 		956D3C972AAB8556008B8FF8 /* Hosts_ToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D3C962AAB8556008B8FF8 /* Hosts_ToolUITests.swift */; };
 		956D3C992AAB8556008B8FF8 /* Hosts_ToolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D3C982AAB8556008B8FF8 /* Hosts_ToolUITestsLaunchTests.swift */; };
+		956D3CA62AAB8651008B8FF8 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D3CA52AAB8651008B8FF8 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		956D3C922AAB8556008B8FF8 /* Hosts ToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hosts ToolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		956D3C962AAB8556008B8FF8 /* Hosts_ToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hosts_ToolUITests.swift; sourceTree = "<group>"; };
 		956D3C982AAB8556008B8FF8 /* Hosts_ToolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hosts_ToolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		956D3CA52AAB8651008B8FF8 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,9 @@
 				956D3C952AAB8556008B8FF8 /* Hosts ToolUITests */,
 				956D3C782AAB8554008B8FF8 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		956D3C782AAB8554008B8FF8 /* Products */ = {
 			isa = PBXGroup;
@@ -100,6 +104,7 @@
 				956D3C7E2AAB8556008B8FF8 /* Assets.xcassets */,
 				956D3C832AAB8556008B8FF8 /* Hosts_Tool.entitlements */,
 				956D3C802AAB8556008B8FF8 /* Preview Content */,
+				956D3CA52AAB8651008B8FF8 /* Service.swift */,
 			);
 			path = "Hosts Tool";
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 			files = (
 				956D3C7D2AAB8554008B8FF8 /* ContentView.swift in Sources */,
 				956D3C7B2AAB8554008B8FF8 /* Hosts_ToolApp.swift in Sources */,
+				956D3CA62AAB8651008B8FF8 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Hosts Tool/Hosts_Tool.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -441,6 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Hosts Tool/Hosts_Tool.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
