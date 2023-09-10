@@ -15,6 +15,7 @@
 		956D3C972AAB8556008B8FF8 /* Hosts_ToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D3C962AAB8556008B8FF8 /* Hosts_ToolUITests.swift */; };
 		956D3C992AAB8556008B8FF8 /* Hosts_ToolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D3C982AAB8556008B8FF8 /* Hosts_ToolUITestsLaunchTests.swift */; };
 		956D3CA62AAB8651008B8FF8 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D3CA52AAB8651008B8FF8 /* Service.swift */; };
+		95E9BE812AADB2C200AFCB04 /* HostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E9BE802AADB2C200AFCB04 /* HostViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		956D3C962AAB8556008B8FF8 /* Hosts_ToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hosts_ToolUITests.swift; sourceTree = "<group>"; };
 		956D3C982AAB8556008B8FF8 /* Hosts_ToolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hosts_ToolUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		956D3CA52AAB8651008B8FF8 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		95E9BE802AADB2C200AFCB04 /* HostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				956D3C832AAB8556008B8FF8 /* Hosts_Tool.entitlements */,
 				956D3C802AAB8556008B8FF8 /* Preview Content */,
 				956D3CA52AAB8651008B8FF8 /* Service.swift */,
+				95E9BE802AADB2C200AFCB04 /* HostViewModel.swift */,
 			);
 			path = "Hosts Tool";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E9BE812AADB2C200AFCB04 /* HostViewModel.swift in Sources */,
 				956D3C7D2AAB8554008B8FF8 /* ContentView.swift in Sources */,
 				956D3C7B2AAB8554008B8FF8 /* Hosts_ToolApp.swift in Sources */,
 				956D3CA62AAB8651008B8FF8 /* Service.swift in Sources */,
